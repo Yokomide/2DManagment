@@ -1,0 +1,893 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'ru' Physical Memory: 7103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Games/2DManagerLife
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53126
+Successfully changed project path to: D:/Games/2DManagerLife
+D:/Games/2DManagerLife
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 145.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Games/2DManagerLife/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     3551 MB
+    Driver:   27.20.14501.24001
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002010 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 126.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.328 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 134.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.218 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.3 MB.
+System memory in use after: 132.4 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3455.
+Total: 6.088600 ms (FindLiveObjects: 0.671200 ms CreateObjectMapping: 0.281800 ms MarkObjects: 4.893000 ms  DeleteObjects: 0.239100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts
+  artifactKey: Guid(9e0fd87d86dc58b45a53567de3d06240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(9e0fd87d86dc58b45a53567de3d06240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00782d06067d7e65b941f0fe337c190a') in 0.027406 seconds
+  Import took 0.036261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.148790 seconds.
+  path: Assets/CatTalks.cs
+  artifactKey: Guid(afb945e6c3b7143428c1ab31e27cc505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatTalks.cs using Guid(afb945e6c3b7143428c1ab31e27cc505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e13d952113cea87e43f425064ec47e5') in 0.094263 seconds
+  Import took 0.106383 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.111 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 127.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3458.
+Total: 5.511000 ms (FindLiveObjects: 0.662500 ms CreateObjectMapping: 0.161400 ms MarkObjects: 4.476200 ms  DeleteObjects: 0.208200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.346742 seconds.
+  path: Assets/Cainos/Tiles/Clocks.asset
+  artifactKey: Guid(14283d219d827ac49b671417a23e635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/Clocks.asset using Guid(14283d219d827ac49b671417a23e635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2473b990978ab3b48354fba86f72316f') in 0.205861 seconds
+  Import took 0.220915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_16.asset
+  artifactKey: Guid(595a8f04f5ea494458da15f2306565db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_16.asset using Guid(595a8f04f5ea494458da15f2306565db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7b960909e37f2b79f53c51088b0037') in 0.037169 seconds
+  Import took 0.050613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_23.asset
+  artifactKey: Guid(c93e3c5f44495c6408816aba6d332e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_23.asset using Guid(c93e3c5f44495c6408816aba6d332e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f82c941e0cc5b300ebf876125ba92d9') in 0.038446 seconds
+  Import took 0.052883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_29.asset
+  artifactKey: Guid(55b5b0bbeacd0fa459bd274d3b5262f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_29.asset using Guid(55b5b0bbeacd0fa459bd274d3b5262f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f720c471aef8f3e7d00707f041adc3') in 0.024198 seconds
+  Import took 0.038426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Wall2_3.asset
+  artifactKey: Guid(09004db0ade26c64a827c81d61a7d59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Wall2_3.asset using Guid(09004db0ade26c64a827c81d61a7d59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc368c6a4cdd23062f1a80b6ac88ed1') in 0.027088 seconds
+  Import took 0.041020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_44.asset
+  artifactKey: Guid(8d301129868c4c74e955e01784d34f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_44.asset using Guid(8d301129868c4c74e955e01784d34f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647461838a0220d66e380ab4f079d29e') in 0.022215 seconds
+  Import took 0.035034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Wall2_2.asset
+  artifactKey: Guid(cbda52f6a3cfa5840a0fb8e17d3af53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Wall2_2.asset using Guid(cbda52f6a3cfa5840a0fb8e17d3af53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3257db0e5f95adaeaaee4a8998071bba') in 0.022824 seconds
+  Import took 0.037149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Wall2_0.asset
+  artifactKey: Guid(1e3fbbbb3dda8a545bc24715bed4c41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Wall2_0.asset using Guid(1e3fbbbb3dda8a545bc24715bed4c41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102c577d952c08e442ffa3af2216d6d5') in 0.025637 seconds
+  Import took 0.038864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_8.asset
+  artifactKey: Guid(f65db728c4acdc047aca1539e772b67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_8.asset using Guid(f65db728c4acdc047aca1539e772b67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3630df0957d8e3235116a047690005ba') in 0.022524 seconds
+  Import took 0.035005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_7.asset
+  artifactKey: Guid(41d9b3605f145044ea7abf7607f23fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_7.asset using Guid(41d9b3605f145044ea7abf7607f23fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a735156aeaf4e5e0a36cc3d7157ec1dd') in 0.025888 seconds
+  Import took 0.039704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_35.asset
+  artifactKey: Guid(866274c2e249ec14881456020188d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_35.asset using Guid(866274c2e249ec14881456020188d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3065a61768db68cb4fb885d59005dfd') in 0.025873 seconds
+  Import took 0.039332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_22.asset
+  artifactKey: Guid(21ccbdcc325eb434f863cdc8639f6bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_22.asset using Guid(21ccbdcc325eb434f863cdc8639f6bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46e24a31c3a061e32dbcf69b1ade18a') in 0.023922 seconds
+  Import took 0.037810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_50.asset
+  artifactKey: Guid(9639712d9bb65ef4bb34ed3ccf5ca2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_50.asset using Guid(9639712d9bb65ef4bb34ed3ccf5ca2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5544c7a876de0a225f128ecb39d9ee42') in 0.023921 seconds
+  Import took 0.036414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_36.asset
+  artifactKey: Guid(66862927f37c94945be4174c76e80033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_36.asset using Guid(66862927f37c94945be4174c76e80033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de55593919bfc8f7b90fd1cf3907b7d7') in 0.022772 seconds
+  Import took 0.033750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_28.asset
+  artifactKey: Guid(06c4edee3280c5a4887974741e7f65e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_28.asset using Guid(06c4edee3280c5a4887974741e7f65e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd7c8188104527af7b3a1c59ff577c8') in 0.019316 seconds
+  Import took 0.029405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_9.asset
+  artifactKey: Guid(93fc2c655839ef540a9953b9c608c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_9.asset using Guid(93fc2c655839ef540a9953b9c608c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab87da37a85a9eed4aabffab9d04fa01') in 0.023888 seconds
+  Import took 0.036279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_12.asset
+  artifactKey: Guid(f8ae2a47f51b5f74dae59eb013c18eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_12.asset using Guid(f8ae2a47f51b5f74dae59eb013c18eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d30b9a31ff3ef58af61fa9d3eaed162') in 0.022172 seconds
+  Import took 0.031180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_4.asset
+  artifactKey: Guid(0d38dee4ce14a63439c42079f3a3dfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_4.asset using Guid(0d38dee4ce14a63439c42079f3a3dfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6765ca9222ec4d7579757c42c591b5e3') in 0.020688 seconds
+  Import took 0.029263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_33.asset
+  artifactKey: Guid(6748692a5b1502942ad86a25a522bf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_33.asset using Guid(6748692a5b1502942ad86a25a522bf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7163acdc017a37c85668d8e5e68517') in 0.024348 seconds
+  Import took 0.035411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_31.asset
+  artifactKey: Guid(51048cdbcf94ccc4f99ce79486ffbcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_31.asset using Guid(51048cdbcf94ccc4f99ce79486ffbcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ab7c0ca6d7920030f4ca9409533b17') in 0.020283 seconds
+  Import took 0.029239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_48.asset
+  artifactKey: Guid(6795a30b5585fbd48be1b741fa10400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_48.asset using Guid(6795a30b5585fbd48be1b741fa10400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ef127c07680935e3d45e1565ea0899') in 0.023266 seconds
+  Import took 0.034643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_26.asset
+  artifactKey: Guid(e5f58dc27917a91479dbb18a58f9f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_26.asset using Guid(e5f58dc27917a91479dbb18a58f9f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c43914119564b3b9444288ea7230b62') in 0.021197 seconds
+  Import took 0.030510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_0.asset
+  artifactKey: Guid(02baa7a5d9cf91241a4cc83b5fc31004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_0.asset using Guid(02baa7a5d9cf91241a4cc83b5fc31004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a0f5c5e1cf0f873201bb72dca7c1c9') in 0.020183 seconds
+  Import took 0.028930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_21.asset
+  artifactKey: Guid(7800543ed3d15484999ca8a259f2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_21.asset using Guid(7800543ed3d15484999ca8a259f2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22c52f396c13ef317f6166c75075f28') in 0.021699 seconds
+  Import took 0.032276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_10.asset
+  artifactKey: Guid(813742cd2b781ba4cbe30400a28df597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_10.asset using Guid(813742cd2b781ba4cbe30400a28df597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe74894ebb86fc78df201c834b740a5') in 0.019227 seconds
+  Import took 0.029805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_18.asset
+  artifactKey: Guid(2822b62882692e14cb213dd9eb2fc7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_18.asset using Guid(2822b62882692e14cb213dd9eb2fc7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abac427c47347b07f0ff3c626f0f4be9') in 0.021484 seconds
+  Import took 0.030267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_14.asset
+  artifactKey: Guid(99a58ed709ebaf448934bbd876f7872c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_14.asset using Guid(99a58ed709ebaf448934bbd876f7872c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064d6dca31b660678f81012dcbbba1f6') in 0.018829 seconds
+  Import took 0.027423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_30.asset
+  artifactKey: Guid(b8b7ac6ce075ff047bb14899827f6599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_30.asset using Guid(b8b7ac6ce075ff047bb14899827f6599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fa3ce18b02ab4ff66dd76d18e8a0c7') in 0.015998 seconds
+  Import took 0.024816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_3.asset
+  artifactKey: Guid(69e2ed39350b12a4fa3ebb1c7a036105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_3.asset using Guid(69e2ed39350b12a4fa3ebb1c7a036105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe4417b9de701bd36f18d26b48239cd') in 0.023361 seconds
+  Import took 0.032502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_47.asset
+  artifactKey: Guid(0b7b2bdaa2e008a4ca4041d3fabcd6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_47.asset using Guid(0b7b2bdaa2e008a4ca4041d3fabcd6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a883e1af7c47dc7672584aa3d14817') in 0.016438 seconds
+  Import took 0.025685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_39.asset
+  artifactKey: Guid(899953c6c15ffb7469758db519f93c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_39.asset using Guid(899953c6c15ffb7469758db519f93c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808fd48a550447e86aaa1bea7a342ac2') in 0.017246 seconds
+  Import took 0.027955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_32.asset
+  artifactKey: Guid(ce353fb05fd72324ba4efe5b5cc1a506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_32.asset using Guid(ce353fb05fd72324ba4efe5b5cc1a506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159ab3cb9b0178e10223ea3953c8846b') in 0.017731 seconds
+  Import took 0.026838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_24.asset
+  artifactKey: Guid(b03e22bbf58f5f04ebdb673b6178afbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_24.asset using Guid(b03e22bbf58f5f04ebdb673b6178afbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e111934f43aa2f4533cac6fc8ed947') in 0.016858 seconds
+  Import took 0.025448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Wall2_1.asset
+  artifactKey: Guid(e7fa580a15d464148b2c5c913fc39e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Wall2_1.asset using Guid(e7fa580a15d464148b2c5c913fc39e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3388e89e36dc258e424e72e5373a6c') in 0.017054 seconds
+  Import took 0.026723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_37.asset
+  artifactKey: Guid(68611cd428a2e9f4f8ac87aa856b9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_37.asset using Guid(68611cd428a2e9f4f8ac87aa856b9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb9469c8429e87b2c8eaa80d719582c') in 0.019244 seconds
+  Import took 0.028543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_25.asset
+  artifactKey: Guid(8cc61b267c54d9c4f97b1a2f3f4b7aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_25.asset using Guid(8cc61b267c54d9c4f97b1a2f3f4b7aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5d2a2c0b54044ca85088243b567aa8') in 0.017822 seconds
+  Import took 0.027595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_46.asset
+  artifactKey: Guid(58415d94ceb02d24097c39f04961b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_46.asset using Guid(58415d94ceb02d24097c39f04961b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e19111da8d285efb319833c3516938') in 0.017089 seconds
+  Import took 0.026759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_43.asset
+  artifactKey: Guid(f48ab77f4f6aecd4eb35f3cbea765879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_43.asset using Guid(f48ab77f4f6aecd4eb35f3cbea765879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56863f216dfb7c97fedcc5dd3dcdb61') in 0.020432 seconds
+  Import took 0.029807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_2.asset
+  artifactKey: Guid(07898f45602a9b9448d4c7066a9f9c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_2.asset using Guid(07898f45602a9b9448d4c7066a9f9c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c62759f86a01fabb09ec676b3181a1') in 0.017372 seconds
+  Import took 0.027314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_11.asset
+  artifactKey: Guid(673edc5c48f637842b1cee39d8e02a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_11.asset using Guid(673edc5c48f637842b1cee39d8e02a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd25a9f71dc0ce973511b2ff1d6929a8') in 0.017338 seconds
+  Import took 0.026366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_34.asset
+  artifactKey: Guid(3c133f8b64cbe3c42aaf04a235ef11e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_34.asset using Guid(3c133f8b64cbe3c42aaf04a235ef11e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec3066d08030be9aca530eb2dd2f68a') in 0.017291 seconds
+  Import took 0.026893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_27.asset
+  artifactKey: Guid(10f607fa79368fa46b820a74bfa1291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_27.asset using Guid(10f607fa79368fa46b820a74bfa1291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a989085d6f982fec34dc28451ee92de') in 0.018070 seconds
+  Import took 0.026899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_45.asset
+  artifactKey: Guid(fda511fe710fa8040b3833954e91cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_45.asset using Guid(fda511fe710fa8040b3833954e91cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ccefefe4bfc2dd6e48d100f84aa20a') in 0.016853 seconds
+  Import took 0.025689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_13.asset
+  artifactKey: Guid(c3b1de3089583c74994b402a1118b2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_13.asset using Guid(c3b1de3089583c74994b402a1118b2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d0aee28e0967eb8ffe04f0f36f5aff') in 0.021638 seconds
+  Import took 0.032350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_6.asset
+  artifactKey: Guid(ff81b025f2f84da4ea97e4f0cbce4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_6.asset using Guid(ff81b025f2f84da4ea97e4f0cbce4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1f90ed18abea42a17b27ecf3a803e7') in 0.020781 seconds
+  Import took 0.029725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_19.asset
+  artifactKey: Guid(6d83c978c59ea1940b48be9d91bf93f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_19.asset using Guid(6d83c978c59ea1940b48be9d91bf93f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cf0c9818fcf955d03925bd59953f77') in 0.021778 seconds
+  Import took 0.031036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_15.asset
+  artifactKey: Guid(08f80bf176510ca46bfa919d0d64ff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_15.asset using Guid(08f80bf176510ca46bfa919d0d64ff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4debc3580b255389b4d0c86c69fd37a') in 0.019159 seconds
+  Import took 0.028042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_42.asset
+  artifactKey: Guid(a026d2a343d60894c9172d9adb3eb097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_42.asset using Guid(a026d2a343d60894c9172d9adb3eb097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e4bb80001071c9d8bb2a3a777d82ce') in 0.018622 seconds
+  Import took 0.028058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_20.asset
+  artifactKey: Guid(20c45c976a1895445afa94e28753d1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_20.asset using Guid(20c45c976a1895445afa94e28753d1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8873093d2f9db872e4062d904920887') in 0.020207 seconds
+  Import took 0.029879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_1.asset
+  artifactKey: Guid(26ac4d2d477d38b44b03506caff4b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_1.asset using Guid(26ac4d2d477d38b44b03506caff4b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3ac7374f1ffb0cbf731cd13204d5a7') in 0.020146 seconds
+  Import took 0.029218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_41.asset
+  artifactKey: Guid(8f2b93e180d7d7742a62ef4f00c79595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_41.asset using Guid(8f2b93e180d7d7742a62ef4f00c79595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f91b6c677543dbb06b06a9249746808') in 0.021255 seconds
+  Import took 0.030347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_17.asset
+  artifactKey: Guid(8d109b049e8bdea4c9c4ab79429443aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_17.asset using Guid(8d109b049e8bdea4c9c4ab79429443aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5d79b943cc3c9927b4abe005ac7511') in 0.019279 seconds
+  Import took 0.027679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_5.asset
+  artifactKey: Guid(2c8da0e3c835cf445ad64f6dfc886f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_5.asset using Guid(2c8da0e3c835cf445ad64f6dfc886f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b6193ccab617fc9e9dab98dce5e094') in 0.019599 seconds
+  Import took 0.028229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_38.asset
+  artifactKey: Guid(366d2caeca806a64f9b746e46af440e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_38.asset using Guid(366d2caeca806a64f9b746e46af440e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8f179a6c621ad8238b3ed51b1c9cd6') in 0.020110 seconds
+  Import took 0.029030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_49.asset
+  artifactKey: Guid(e976d379ad367b9469c68eb033ddbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_49.asset using Guid(e976d379ad367b9469c68eb033ddbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a602e14057ed43fe362f8ab4450cde74') in 0.018523 seconds
+  Import took 0.027649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_38.asset
+  artifactKey: Guid(366d2caeca806a64f9b746e46af440e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_38.asset using Guid(366d2caeca806a64f9b746e46af440e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8f179a6c621ad8238b3ed51b1c9cd6') in 0.009395 seconds
+  Import took 0.018425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Stone Ground_40.asset
+  artifactKey: Guid(bdd195ba46ac2634580e2feeddcddf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Stone Ground_40.asset using Guid(bdd195ba46ac2634580e2feeddcddf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c9b79745210eaa381a04efceb17499') in 0.019000 seconds
+  Import took 0.028029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Cainos/Tiles/TX Tileset Wall2_4.asset
+  artifactKey: Guid(7c356eb37c3bc3a4f96c0511f5a6fd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Tiles/TX Tileset Wall2_4.asset using Guid(7c356eb37c3bc3a4f96c0511f5a6fd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9de7b0a9ac2208d651c423409e96da') in 0.017735 seconds
+  Import took 0.028332 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.992 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3466.
+Total: 5.445700 ms (FindLiveObjects: 0.556400 ms CreateObjectMapping: 0.202600 ms MarkObjects: 4.495700 ms  DeleteObjects: 0.188900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.952 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 131.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3469.
+Total: 7.121200 ms (FindLiveObjects: 0.677000 ms CreateObjectMapping: 0.280400 ms MarkObjects: 5.900400 ms  DeleteObjects: 0.259900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.874 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3472.
+Total: 6.461300 ms (FindLiveObjects: 0.505200 ms CreateObjectMapping: 0.163200 ms MarkObjects: 5.524200 ms  DeleteObjects: 0.266400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.978 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3475.
+Total: 4.550900 ms (FindLiveObjects: 0.603900 ms CreateObjectMapping: 0.165600 ms MarkObjects: 3.589700 ms  DeleteObjects: 0.189300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.901 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.3 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3478.
+Total: 6.905400 ms (FindLiveObjects: 0.630700 ms CreateObjectMapping: 0.228200 ms MarkObjects: 5.774200 ms  DeleteObjects: 0.268900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003619 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.953 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3481.
+Total: 5.651200 ms (FindLiveObjects: 0.757700 ms CreateObjectMapping: 0.234600 ms MarkObjects: 4.463000 ms  DeleteObjects: 0.192900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.863 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3484.
+Total: 8.252900 ms (FindLiveObjects: 0.750000 ms CreateObjectMapping: 0.250000 ms MarkObjects: 6.972100 ms  DeleteObjects: 0.277000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002459 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.987 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.3 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3487.
+Total: 7.049400 ms (FindLiveObjects: 0.627800 ms CreateObjectMapping: 0.289700 ms MarkObjects: 5.856100 ms  DeleteObjects: 0.273000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.026 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3490.
+Total: 8.828800 ms (FindLiveObjects: 0.954900 ms CreateObjectMapping: 0.429300 ms MarkObjects: 7.132700 ms  DeleteObjects: 0.308500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.983 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3493.
+Total: 5.775400 ms (FindLiveObjects: 0.725900 ms CreateObjectMapping: 0.326200 ms MarkObjects: 4.503800 ms  DeleteObjects: 0.217400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.848 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3496.
+Total: 5.252500 ms (FindLiveObjects: 0.713500 ms CreateObjectMapping: 0.347800 ms MarkObjects: 3.994500 ms  DeleteObjects: 0.194200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.952 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3499.
+Total: 4.557700 ms (FindLiveObjects: 0.609400 ms CreateObjectMapping: 0.182300 ms MarkObjects: 3.571300 ms  DeleteObjects: 0.191900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.766 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3502.
+Total: 6.185500 ms (FindLiveObjects: 0.667600 ms CreateObjectMapping: 0.222900 ms MarkObjects: 5.038000 ms  DeleteObjects: 0.254000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
