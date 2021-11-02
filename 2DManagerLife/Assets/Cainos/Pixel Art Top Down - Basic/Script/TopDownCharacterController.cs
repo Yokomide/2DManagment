@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Cainos.PixelArtTopDown_Basic
-{
     public class TopDownCharacterController : MonoBehaviour
     {
         public float speed;
-
+        public bool isDialog;
         private Animator animator;
 
+        public Vector2 dir;
         private void Start()
         {
             animator = GetComponent<Animator>();
@@ -18,7 +17,10 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void Update()
         {
-            Vector2 dir = Vector2.zero;
+            if (!isDialog)
+            {
+
+                Vector2 dir = Vector2.zero;
             if (Input.GetKey(KeyCode.A))
             {
                 dir.x = -1;
@@ -46,5 +48,10 @@ namespace Cainos.PixelArtTopDown_Basic
 
             GetComponent<Rigidbody2D>().velocity = speed * dir;
         }
+            else
+        {
+            GetComponent<Rigidbody2D>().velocity = dir * 0;
+        }
+        }
     }
-}
+

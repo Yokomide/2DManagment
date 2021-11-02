@@ -7,6 +7,7 @@ TagManager:
   - Prop
   - Book
   - Shelf
+  - Cat
   layers:
   - Default
   - TransparentFX
