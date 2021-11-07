@@ -17,7 +17,25 @@ using UnityEngine;
 
         private void Update()
         {
-            if (!isDialog)
+        if (gameObject != null)
+
+                if (Input.GetKeyDown(KeyCode.X))
+                {
+                    PlayerPrefs.DeleteAll();
+                    if (System.IO.Directory.Exists(Application.dataPath + "/VIDE/saves"))
+                    {
+                        System.IO.Directory.Delete(Application.dataPath + "/VIDE/saves", true);
+#if UNITY_EDITOR
+                        UnityEditor.AssetDatabase.Refresh();
+#endif
+                    }
+
+#if UNITY_EDITOR
+                    UnityEditor.EditorApplication.isPlaying = false;
+#endif
+            }
+
+        if (!isDialog)
             {
 
                 Vector2 dir = Vector2.zero;

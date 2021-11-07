@@ -34,8 +34,8 @@ public class PlayerDialog : MonoBehaviour
 
     void Start()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
@@ -59,11 +59,11 @@ public class PlayerDialog : MonoBehaviour
         //Hide/Show cursor
         if (Input.GetMouseButtonDown(0))
         {
-            Cursor.visible = !Cursor.visible;
-            if (Cursor.visible)
-                Cursor.lockState = CursorLockMode.None;
-            else
-                Cursor.lockState = CursorLockMode.Locked;
+         //  Cursor.visible = !Cursor.visible;
+           // if (Cursor.visible)
+          //      Cursor.lockState = CursorLockMode.None;
+          //  else
+               // Cursor.lockState = CursorLockMode.Locked;
         }
     }
 

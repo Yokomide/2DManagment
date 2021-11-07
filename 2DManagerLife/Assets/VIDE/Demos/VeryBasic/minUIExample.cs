@@ -31,7 +31,7 @@ public class minUIExample : MonoBehaviour {
             {
                 GUILayout.Label(data.comments[data.commentIndex]);
 
-                if (GUILayout.Button(">")){
+                if (Input.GetMouseButtonDown(0)){
                     VD.Next();
                 }
             }

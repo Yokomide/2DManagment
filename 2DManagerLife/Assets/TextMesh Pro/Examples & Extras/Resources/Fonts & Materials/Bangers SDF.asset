@@ -125,6 +125,7 @@ MonoBehaviour:
   m_SourceFontFile: {fileID: 12800000, guid: 5dd49b3eacc540408c98eee0de38e0f1, type: 3}
   m_AtlasPopulationMode: 1
   m_FaceInfo:
+    m_FaceIndex: 0
     m_FamilyName: Bangers
     m_StyleName: Regular
     m_PointSize: 144
@@ -150,6 +151,7 @@ MonoBehaviour:
   - {fileID: 28584486757587946}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
+  m_ClearDynamicDataOnBuild: 0
   m_UsedGlyphRects: []
   m_FreeGlyphRects:
   - m_X: 0

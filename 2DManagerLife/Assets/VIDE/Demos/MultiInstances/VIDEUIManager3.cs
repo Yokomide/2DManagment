@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using VIDE_Data; //<--- Import to use VD2 class
+using TMPro;
 
 /*
  * This is another example of a dialogue UImanager
@@ -12,7 +13,7 @@ using VIDE_Data; //<--- Import to use VD2 class
 
 public class VIDEUIManager3 : MonoBehaviour
 {
-    public Text[] npcText; //References to UI elements
+    public TextMeshProUGUI[] npcText; //References to UI elements
     IEnumerator[] textAnim = new IEnumerator[4]; 
     public int animatingText = -1; //With this we'll know if and what we are animating
 
@@ -22,36 +23,39 @@ public class VIDEUIManager3 : MonoBehaviour
     void Start()
     {
         //Let's just add 4 instances of VD2 for our dialogues
-        for (int i = 0; i < 4; i++)
-            dialogueDataInstances.Add(new VD2());
+        //for (int i = 0; i < 4; i++)
+          dialogueDataInstances.Add(new VD2());
     }
 
     //Called by UI buttons, sends the dialogue index
     //Will start the convo or update it
-    public void ButtonAction(int dialogueIndex)
-    {
-        var data = dialogueDataInstances[dialogueIndex];
-        if (!data.isActive)
-        {
-            data.OnEnd += End; //Required events
-            data.BeginDialogue(GetComponent<VIDE_Assign>());
-            //This will begin the dialogue for that instance
-        }
-        else
-        {
-            if (animatingText != -1)
-            {
-                CutTextAnim();
-                return;
-            } else
-            {
-                data.Next();
-                //Next for that instance
-            }
-        }
 
-        if (data.isActive) //Check again if loaded as we might reach the end when calling Next
-            UpdateDialogue(dialogueIndex);
+    public void StartDialog(int dialogueIndex)
+    {
+            var data = dialogueDataInstances[dialogueIndex];
+            if (!data.isActive)
+            {
+                data.OnEnd += End; //Required events
+                data.BeginDialogue(GetComponent<VIDE_Assign>());
+                //This will begin the dialogue for that instance
+            }
+            else
+            {
+                if (animatingText != -1)
+                {
+                    CutTextAnim();
+                    return;
+                }
+                else
+                {
+                    data.Next();
+                    //Next for that instance
+                }
+            }
+
+            if (data.isActive) //Check again if loaded as we might reach the end when calling Next
+                UpdateDialogue(dialogueIndex);
+   
     }
 
     //This will update the interface, which is NPC text only
@@ -72,7 +76,7 @@ public class VIDEUIManager3 : MonoBehaviour
         {
             text += data.nodeData.comments[data.nodeData.commentIndex][text.Length];
             npcText[dialogueIndex].text = text;
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(0.03f);
         }
         animatingText = -1;
     }
@@ -95,11 +99,16 @@ public class VIDEUIManager3 : MonoBehaviour
         data.EndDialogue();
     }
 
+   public void DisableBeginDialog()
+    {
+        gameObject.SetActive(false);
+
+    }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetMouseButtonDown(0))
         {
-            VD.SetCurrentLanguage("English");
+            StartDialog(0);
         }
     }
 }

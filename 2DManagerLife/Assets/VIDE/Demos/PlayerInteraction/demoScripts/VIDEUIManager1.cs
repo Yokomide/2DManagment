@@ -12,6 +12,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 using VIDE_Data; //<--- Import to use easily call VD class
 
 public class VIDEUIManager1 : MonoBehaviour
@@ -28,12 +29,12 @@ public class VIDEUIManager1 : MonoBehaviour
     public GameObject playerContainer;
     public GameObject itemPopUp;
 
-    public Text NPC_Text;
-    public Text NPC_label;
+    public TextMeshProUGUI NPC_Text;
+    public TextMeshProUGUI NPC_label;
     public Image NPCSprite;
     public GameObject playerChoicePrefab;
     public Image playerSprite;
-    public Text playerLabel;
+    public TextMeshProUGUI playerLabel;
 
     bool dialoguePaused = false; //Custom variable to prevent the manager from calling VD.Next
     bool animatingText = false; //Will help us know when text is currently being animated
@@ -42,7 +43,7 @@ public class VIDEUIManager1 : MonoBehaviour
     public PlayerDialog player;
 
     //We'll be using this to store references of the current player choices
-    private List<Text> currentChoices = new List<Text>();
+    private List<TextMeshProUGUI> currentChoices = new List<TextMeshProUGUI>();
 
     //With this we can start a coroutine and stop it. Used to animate text
     IEnumerator NPC_TextAnimator;
@@ -161,9 +162,9 @@ public class VIDEUIManager1 : MonoBehaviour
     {
         //Reset some variables
         //Destroy the current choices
-        foreach (Text op in currentChoices)
+        foreach (TextMeshProUGUI op in currentChoices)
             Destroy(op.gameObject);
-        currentChoices = new List<UnityEngine.UI.Text>();
+        currentChoices = new List<TMPro.TextMeshProUGUI>();
         NPC_Text.text = "";
         NPC_Container.SetActive(false);
         playerContainer.SetActive(false);
@@ -244,10 +245,11 @@ public class VIDEUIManager1 : MonoBehaviour
             newOp.transform.SetParent(playerChoicePrefab.transform.parent, true);
             newOp.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 20 - (20 * i));
             newOp.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
-            newOp.GetComponent<UnityEngine.UI.Text>().text = choices[i];
+            newOp.GetComponent<TMPro.TextMeshProUGUI>().text = choices[i];
+  
             newOp.SetActive(true);
 
-            currentChoices.Add(newOp.GetComponent<UnityEngine.UI.Text>()); 
+            currentChoices.Add(newOp.GetComponent<TMPro.TextMeshProUGUI>()); 
         }
     }
 

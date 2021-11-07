@@ -1,0 +1,30 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+
+
+public class SliderScripts : MonoBehaviour
+{
+    public Slider slider;
+    public Image fill;
+
+    private void Start()
+    {
+        FillSlider();
+    }
+
+    public void FillSlider()
+    {
+        fill.fillAmount = slider.value;
+    }
+    public void WasteEnergy()
+        {
+        slider.value -= 0.2f;
+        }
+    public void EnergyReset()
+    {
+        slider.value = 1f;
+    }
+}
