@@ -7,24 +7,36 @@ using UnityEngine.UI;
 
 public class SliderScripts : MonoBehaviour
 {
+    public static SliderScripts singleton { get; private set; }
+
+    private void Awake()
+    {
+        if(!singleton)
+        {
+            singleton = this;
+            DontDestroyOnLoad(this);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     public Slider slider;
     public Image fill;
-
-    private void Start()
+    public bool _isFillSlider = false;
+    public float newValue;
+     void Update()
     {
-        FillSlider();
-    }
-
-    public void FillSlider()
-    {
-        fill.fillAmount = slider.value;
-    }
-    public void WasteEnergy()
+        if (slider.value != newValue)
         {
-        slider.value -= 0.2f;
+            slider.value = Mathf.Lerp(slider.value, newValue, Time.deltaTime * 2f);
+            fill.fillAmount = slider.value/100;
         }
-    public void EnergyReset()
+    }
+
+    public void SmoothBar(float energyPoints)
     {
-        slider.value = 1f;
+        newValue = energyPoints;
     }
 }

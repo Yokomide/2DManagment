@@ -22,8 +22,12 @@ public class DayEnd : MonoBehaviour
 
     private void TimeCheck()
     {
-        if (TimeManager.Hour == 10 && TimeManager.Minute == 30)
+        if (TimeManager.Hour == 00 && TimeManager.Minute == 10)
+        {
+
             EndText.SetActive(true);
+        }
+        
     }
 
 
