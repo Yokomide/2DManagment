@@ -249,8 +249,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -1423,12 +1423,12 @@ TextureImporter:
       name: TX Tileset Wall_53
       rect:
         serializedVersion: 2
-        x: 224
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 232
+        y: 160
+        width: 103
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5132603, y: 0.516614}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1444,10 +1444,10 @@ TextureImporter:
       name: TX Tileset Wall_54
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 32
-        height: 32
+        x: 385
+        y: 115
+        width: 53
+        height: 105
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1751,6 +1751,48 @@ TextureImporter:
       bones: []
       spriteID: 0fc9b22838fb4cd90800000000000000
       internalID: -7078322142774059792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Tileset Wall_63
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 32
+        width: 33
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecffc8a5d338f0690800000000000000
+      internalID: -7633738543834267698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Tileset Wall_64
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 41
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66738e85d0a09c790800000000000000
+      internalID: -7509459851221125274
       vertices: []
       indices: 
       edges: []
