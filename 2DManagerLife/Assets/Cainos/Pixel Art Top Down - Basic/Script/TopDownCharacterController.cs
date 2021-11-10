@@ -6,12 +6,13 @@ using UnityEngine;
     {
         public float speed;
         public bool isDialog;
-        private Animator animator;
+        public Animator animator;
+        
 
         public Vector2 dir;
         private void Start()
         {
-            animator = GetComponent<Animator>();
+          
         }
 
 
