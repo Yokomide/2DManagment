@@ -218,6 +218,9 @@ TextureImporter:
   - first:
       213: -7078322142774059792
     second: TX Tileset Wall_71
+  - first:
+      213: -7831239327553210749
+    second: TX Tileset Wall_72
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -562,10 +565,10 @@ TextureImporter:
       name: TX Tileset Wall_12
       rect:
         serializedVersion: 2
-        x: 448
-        y: 448
-        width: 32
-        height: 32
+        x: 457
+        y: 367
+        width: 37
+        height: 81
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1423,8 +1426,8 @@ TextureImporter:
       name: TX Tileset Wall_53
       rect:
         serializedVersion: 2
-        x: 232
-        y: 160
+        x: 194
+        y: 167
         width: 103
         height: 54
       alignment: 9
@@ -1444,8 +1447,8 @@ TextureImporter:
       name: TX Tileset Wall_54
       rect:
         serializedVersion: 2
-        x: 385
-        y: 115
+        x: 446
+        y: 226
         width: 53
         height: 105
       alignment: 0
@@ -1697,7 +1700,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 61
+        y: 37
         width: 32
         height: 32
       alignment: 0
@@ -1739,7 +1742,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 61
+        y: 37
         width: 32
         height: 32
       alignment: 0
@@ -1780,8 +1783,8 @@ TextureImporter:
       name: TX Tileset Wall_64
       rect:
         serializedVersion: 2
-        x: 309
-        y: 41
+        x: 194
+        y: 114
         width: 51
         height: 45
       alignment: 0
@@ -1793,6 +1796,48 @@ TextureImporter:
       bones: []
       spriteID: 66738e85d0a09c790800000000000000
       internalID: -7509459851221125274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Tileset Wall_65
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 291
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd70be975f3a4e70800000000000000
+      internalID: 9100155642612579760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Tileset Wall_72
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 128
+        width: 124
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3863f12c259d15390800000000000000
+      internalID: -7831239327553210749
       vertices: []
       indices: 
       edges: []
