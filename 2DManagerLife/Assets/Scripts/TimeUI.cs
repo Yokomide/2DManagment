@@ -7,6 +7,7 @@ using UnityEngine;
 public class TimeUI : MonoBehaviour
 {
     public TextMeshProUGUI timeText;
+    public TextMeshProUGUI phoneText;
     public TextMeshProUGUI dayText;
 
     private void OnEnable()
@@ -26,6 +27,7 @@ public class TimeUI : MonoBehaviour
     private void UpdateTime()
     {
         timeText.text = $"{TimeManager.Hour:00}:{TimeManager.Minute:00}";
+        phoneText.text = timeText.text;
     }
     private void UpdateText()
     {
