@@ -61,7 +61,9 @@ namespace Lean.Gui
 		[ContextMenu("Toggle")]
 		public void Toggle()
 		{
-			On = !On;
+
+				On = !On;
+
 		}
 
 		/// <summary>If this toggle is turned off, then this will turn it on.</summary>

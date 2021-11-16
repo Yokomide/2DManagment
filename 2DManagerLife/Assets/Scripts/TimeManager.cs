@@ -17,7 +17,7 @@ public class TimeManager : MonoBehaviour
     public static int Day { get; private set; }
     public static string DayName { get; private set; }
 
-    private float minuteToRealTime = 0.5f;
+    private float minuteToRealTime = 0.8f;
     private float timer;
 
     void Start()
