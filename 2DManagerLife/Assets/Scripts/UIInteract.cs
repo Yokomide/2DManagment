@@ -34,5 +34,10 @@ public class UIInteract : MonoBehaviour
             _anim.Play("TakePhone");
         }
     }
+
+    public void CallChecker()
+    {
+
+    }
    
 }
