@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: dd8492dc2c87e014097151af363fdac6
+guid: 2522d9c628b39dc4187a8634a569e6c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6256584208613506972
-    second: pixel_gg_statik_3_0
+      213: -7606022625166313722
+    second: pixel_gg_statik_2_0
   - first:
-      213: -7640599724766842053
-    second: pixel_gg_statik_3_1
+      213: 8064511309689860411
+    second: pixel_gg_statik_2_1
   - first:
-      213: -2166160726272100454
-    second: pixel_gg_statik_3_2
+      213: 8668172897130949411
+    second: pixel_gg_statik_2_2
   - first:
-      213: -8522992833104458134
-    second: pixel_gg_statik_3_3
+      213: 3089321313165085142
+    second: pixel_gg_statik_2_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -45,8 +45,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -103,10 +103,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixel_gg_statik_3_0
+      name: pixel_gg_statik_2_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 10
         y: 6
         width: 38
         height: 117
@@ -117,20 +117,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4600642afc52c29a0800000000000000
-      internalID: -6256584208613506972
+      spriteID: 607b06988baf17690800000000000000
+      internalID: -7606022625166313722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_gg_statik_3_1
+      name: pixel_gg_statik_2_1
       rect:
         serializedVersion: 2
-        x: 51
+        x: 54
         y: 6
         width: 38
-        height: 117
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,17 +138,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b33335e280327f590800000000000000
-      internalID: -7640599724766842053
+      spriteID: b313f2dfe46eaef60800000000000000
+      internalID: 8064511309689860411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_gg_statik_3_2
+      name: pixel_gg_statik_2_2
       rect:
         serializedVersion: 2
-        x: 95
+        x: 98
         y: 6
         width: 38
         height: 117
@@ -159,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a973628db4040f1e0800000000000000
-      internalID: -2166160726272100454
+      spriteID: 32ba821f2598b4870800000000000000
+      internalID: 8668172897130949411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_gg_statik_3_3
+      name: pixel_gg_statik_2_3
       rect:
         serializedVersion: 2
-        x: 137
+        x: 142
         y: 6
         width: 38
-        height: 117
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6ecb9fcc2f38b980800000000000000
-      internalID: -8522992833104458134
+      spriteID: 6d98f3ccd597fda20800000000000000
+      internalID: 3089321313165085142
       vertices: []
       indices: 
       edges: []

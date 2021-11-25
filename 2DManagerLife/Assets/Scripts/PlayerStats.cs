@@ -7,15 +7,7 @@ public class PlayerStats : MonoBehaviour
     public float Energy;
     public float maxEnergy;
 
-    private Inventory inventory;
 
-    [SerializeField] private UI_Inventory uiInventory;
-
-    private void Awake()
-    {
-        inventory = new Inventory();
-        uiInventory.SetInventory(inventory);
-    }
 
     void Start()
     {
@@ -24,7 +16,7 @@ public class PlayerStats : MonoBehaviour
         ChangeSlider();
     }
 
-    
+ 
 
     public void AddEnergy(float energyPoints)
     {
