@@ -8,7 +8,6 @@ TagManager:
   - Book
   - Shelf
   - Cat
-  - Inventory
   layers:
   - Default
   - TransparentFX
