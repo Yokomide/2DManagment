@@ -54,12 +54,10 @@ using UnityEngine;
             if (Input.GetKey(KeyCode.W))
             {
                 dir.y = 1;
-                animator.SetInteger("Direction", 1);
             }
             else if (Input.GetKey(KeyCode.S))
             {
                 dir.y = -1;
-                animator.SetInteger("Direction", 0);
             }
 
             dir.Normalize();

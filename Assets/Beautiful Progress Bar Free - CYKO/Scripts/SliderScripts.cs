@@ -3,17 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-
 public class SliderScripts : MonoBehaviour
 {
-    public static SliderScripts singleton { get; private set; }
+    public static SliderScripts Instance { get; private set; }
 
+    public Slider slider;
+    public Image fill;
+    public bool _isFillSlider = false;
+    public float newValue;
+    
+    
     private void Awake()
     {
-        if(!singleton)
+        if(!Instance)
         {
-            singleton = this;
+            Instance = this;
             DontDestroyOnLoad(this);
         }
         else
@@ -22,11 +26,7 @@ public class SliderScripts : MonoBehaviour
         }
     }
 
-    public Slider slider;
-    public Image fill;
-    public bool _isFillSlider = false;
-    public float newValue;
-     void Update()
+    void Update()
     {
         if (slider.value != newValue)
         {

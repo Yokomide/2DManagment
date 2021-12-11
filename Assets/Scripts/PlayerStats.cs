@@ -4,10 +4,24 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    public static PlayerStats Instance { get; private set; }
+
     public float Energy;
     public float maxEnergy;
 
 
+    private void Awake()
+    {
+        if (!Instance)
+        {
+            Instance = this;
+            DontDestroyOnLoad(this);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {
@@ -15,8 +29,6 @@ public class PlayerStats : MonoBehaviour
         Energy = 80f;
         ChangeSlider();
     }
-
- 
 
     public void AddEnergy(float energyPoints)
     {
@@ -40,6 +52,6 @@ public class PlayerStats : MonoBehaviour
 
     void ChangeSlider()
     {
-        SliderScripts.singleton.SmoothBar(Energy);
+        SliderScripts.Instance.SmoothBar(Energy);
     }
 }

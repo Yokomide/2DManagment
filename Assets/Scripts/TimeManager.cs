@@ -6,6 +6,8 @@ using System;
 
 public class TimeManager : MonoBehaviour
 {
+    public static TimeManager Instance { get; private set; }
+
     public static Action OnMinuteChanged;
     public static Action OnHourChanged;
     public static Action OnDayChanged;
@@ -19,6 +21,19 @@ public class TimeManager : MonoBehaviour
 
     private float minuteToRealTime = 0.8f;
     private float timer;
+
+
+    private void Awake()
+    {
+        if (!Instance)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {
@@ -74,6 +89,10 @@ public class TimeManager : MonoBehaviour
 
     public void MinutesSkip(int minutes)
     {
+        int hours = minutes / 60;
+        minutes = minutes % 60;
+
+        Hour += hours;
         Minute += minutes;
     }
     private void SwitchDayWeek(int Day)

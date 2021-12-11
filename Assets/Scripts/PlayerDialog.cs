@@ -11,7 +11,7 @@ public class PlayerDialog : MonoBehaviour
     public string playerName = "VIDE User";
 
     //Reference to our diagUI script for quick access
-    public VIDEUIManager1 diagUI;
+    public VIDEUIManagerCustom diagUI;
     public QuestChartDemo questUI;
     //Stored current VA when inside a trigger
     public VIDE_Assign inTrigger;
