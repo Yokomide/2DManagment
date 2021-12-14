@@ -14,7 +14,7 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private Vector3 targetPos;
 
-        private void Start()
+        private void Awake()
         {
             if (target == null) return;
 

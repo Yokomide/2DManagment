@@ -6,6 +6,7 @@ using UnityEngine;
     {
         public float speed;
         public bool isDialog;
+    public bool canMove = true;
         public Animator animator;
         
 
@@ -31,12 +32,13 @@ using UnityEngine;
 #endif
                     }
 
+                PlayerPrefs.DeleteAll();
 #if UNITY_EDITOR
                     UnityEditor.EditorApplication.isPlaying = false;
 #endif
             }
 
-        if (!isDialog)
+        if (!isDialog && canMove)
             {
 
                 Vector2 dir = Vector2.zero;

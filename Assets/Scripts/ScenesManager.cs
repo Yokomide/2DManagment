@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System;
+using UnityEngine.Events;
 
 public class ScenesManager : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class ScenesManager : MonoBehaviour
     [SerializeField] private Image Img;
     [Range(1, 10)] public float WaitingTime;
     [Range(1, 3)] public float BlackoutingTime;
+
+    public Action WinAction;
+    public Action LoseAction;
+
 
     private void Awake()
     {
@@ -35,16 +40,26 @@ public class ScenesManager : MonoBehaviour
         _colorA = new Color(_colorB.r, _colorB.g, _colorB.b, 0);
     }
 
-    public void LoadScene(int index)
+    public void TryLoadScene(int index)
     {
-        StartCoroutine(Blacouting(() =>
+        int activeSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if (activeSceneIndex == index)
+            return;
+
+        if (activeSceneIndex == 0)
+        {
+            HomeDataSaver.Instance.SaveHomeData();
+            VIDE_Data.VD.EndDialogue();
+        }
+
+        StartCoroutine(Blackouting(() =>
         {
             SceneManager.LoadScene(index);
             transform.position = new Vector3(0, 1000, 0);
         }));
     }
 
-    private IEnumerator Blacouting(Action funct)
+    private IEnumerator Blackouting(Action funct)
     {
         float currentBlackoutingTime = 0;
 
@@ -68,6 +83,15 @@ public class ScenesManager : MonoBehaviour
             currentBlackoutingTime -= Time.deltaTime;
             Img.color = Color.Lerp(_colorA, _colorB, currentBlackoutingTime / BlackoutingTime);
             yield return null;
+        }
+    }
+
+    public void ClearActions()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            LoseAction = null;
+            WinAction = null;
         }
     }
 }

@@ -17,6 +17,8 @@ using VIDE_Data; //<--- Import to use easily call VD class
 
 public class VIDEUIManagerCustom : MonoBehaviour
 {
+    public static VIDEUIManagerCustom Instance;
+
 
     //This script will handle everything related to dialogue interface
     //It will use the VD class to load dialogues and retrieve node data
@@ -54,11 +56,27 @@ public class VIDEUIManagerCustom : MonoBehaviour
 
     void Awake()
     {
+        if (!Instance)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         // VD.LoadDialogues(); //Load all dialogues to memory so that we dont spend time doing so later
         //An alternative to this can be preloading dialogues from the VIDE_Assign component!
 
         //Loads the saved state of VIDE_Assigns and dialogues.
+
         VD.LoadState("VIDEDEMOScene1", true);
+    }
+
+    private void Start()
+    {
+        ScenesManager.Instance.WinAction?.Invoke();
+        ScenesManager.Instance.LoseAction?.Invoke();
     }
 
     //This begins the dialogue and progresses through it (Called by VIDEDemoPlayer.cs)
@@ -67,6 +85,7 @@ public class VIDEUIManagerCustom : MonoBehaviour
         //Sometimes, we might want to check the ExtraVariables and VAs before moving forward
         //We might want to modify the dialogue or perhaps go to another node, or dont start the dialogue at all
         //In such cases, the function will return true
+
         var doNotInteract = PreConditions(dialogue);
         if (doNotInteract) return;
 
@@ -97,7 +116,6 @@ public class VIDEUIManagerCustom : MonoBehaviour
         VD.OnEnd += EndDialogue;
 
         VD.BeginDialogue(dialogue); //Begins dialogue, will call the first OnNodeChange
-
         dialogueContainer.SetActive(true); //Let's make our dialogue container visible
     }
 
@@ -162,6 +180,7 @@ public class VIDEUIManagerCustom : MonoBehaviour
     //Here's where we update our UI
     void UpdateUI(VD.NodeData data)
     {
+        Debug.Log("updateUI");
         //Reset some variables
         //Destroy the current choices
         foreach (TextMeshProUGUI op in currentChoices)

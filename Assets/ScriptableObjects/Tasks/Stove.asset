@@ -10,18 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f221c67a85f5964981a6fee59035ab5, type: 3}
-  m_Name: TaskData
+  m_Name: Stove
   m_EditorClassIdentifier: 
-  Task: 0
+  Task: 1
   MinHours: -1
   MinMinutes: -1
   MaxHours: -1
   MaxMinutes: -1
-  NeedEnergy: 5
+  NeedEnergy: 20
   HoursToComplete: 0
-  MinutesToComplete: 1
-  NeedItems:
-  - {fileID: 11400000, guid: 17e7c4b35521f2d4393101c50ed6b798, type: 2}
+  MinutesToComplete: 30
+  NeedItems: []
   GetEnergy: 0
   CatFrienliness: 0
   Independence: 0

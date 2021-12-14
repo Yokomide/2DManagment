@@ -227,7 +227,8 @@ class PutDownCommand : Command
 
         if (activePoints == GridProgram.Instance.Points.Count)
         {
-            ScenesManager.Instance?.LoadScene(0);
+            ScenesManager.Instance.LoseAction = null;
+            ScenesManager.Instance?.TryLoadScene(0);
         }
     }
 

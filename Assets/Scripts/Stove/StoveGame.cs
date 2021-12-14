@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class StoveGame : MonoBehaviour
 {
@@ -110,15 +110,18 @@ public class StoveGame : MonoBehaviour
 
     void Lose() //Включает меню проигрыша 
     {
+        ScenesManager.Instance.WinAction = null;
         lose.SetActive(true);
-        Time.timeScale = 0f;
     }
 
     void Win() //Включает меню выигрыша
     {
+        ScenesManager.Instance.LoseAction = null;
         win.SetActive(true);
-        Time.timeScale = 0f;
     }
-    
 
+    public void Return() //Возврат в квартиру
+    {
+        ScenesManager.Instance.TryLoadScene(0);
+    }
 }

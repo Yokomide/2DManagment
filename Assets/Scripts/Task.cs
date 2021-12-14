@@ -1,10 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VIDE_Data;
+using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class Task : MonoBehaviour
 {
     public TaskData Data;
+
+    // ѕереход на некоторые ноды в диалогах происходит программно. 
+    // ѕоэтому после каждого редактировани€ диалога нужно проверить верность проставленных индексов
+    [Space]
+    [Header("DialogIndexes")]
+    [Min(-1)] public int StateNotDirtyIndex = 0;
+    [Min(-1)] public int StateDirtyIndex = 1;
+    [Min(-1)] public int StateMonsterIndex = 2;
+
+    [Space]
+    [Min(-1)] public int CanDoIndex = 3;
+    [Min(-1)] public int NoTimeIndex = 4;
+    [Min(-1)] public int NoItemIndex = 5;
+    [Min(-1)] public int NoEnergyIndex = 6;
+
+    [Space]
+    [Min(-1)] public int OnCompleteIndex = 7;
+    [Min(-1)] public int OnFailIndex = 8;
+
+
+    private VIDE_Assign _dialog;
+
+
+
+    private void Awake()
+    {
+        _dialog = GetComponent<VIDE_Assign>();
+    }
 
 
     private CanDoTask CanStartTask()
@@ -19,48 +50,38 @@ public class Task : MonoBehaviour
         if (PlayerStats.Instance.Energy < Data.NeedEnergy) 
             return CanDoTask.NoEnegry;
 
-        if (!Inventory.Instance.HasNeedItems(Data.NeedItems))
+        if (Data.NeedItems.Count > 0 && !Inventory.Instance.HasNeedItems(Data.NeedItems))
             return CanDoTask.NoItem;
-
-
-        /*bool condition = false;
-        switch (Data.Task)
-        {
-            case Tasks.WaterFlower:
-                condition = true;
-                break;
-
-            case Tasks.WashStove:
-                condition = true;
-                break;
-
-            case Tasks.Sleep:
-                condition = true;
-                break;
-        }*/
 
         return CanDoTask.CanDo;
     }
+
+
+    public void CheckTaskState()
+    {
+        int actualStateIndex = TasksActions.CheckStateAction(Data.Task, StateNotDirtyIndex, StateDirtyIndex, StateMonsterIndex, Data);
+        TrySetDialogNode(actualStateIndex);
+    }
+
 
     public void TryStartTask()
     {
         switch (CanStartTask())
         {
             case CanDoTask.CanDo:
-                StartTask();
-                TrySetDialogNode(1);
+                TrySetDialogNode(CanDoIndex);
                 break;
             
             case CanDoTask.NoTime:
-                TrySetDialogNode(2);
+                TrySetDialogNode(NoTimeIndex);
                 break;
             
             case CanDoTask.NoItem:
-                TrySetDialogNode(3);
+                TrySetDialogNode(NoItemIndex);
                 break;
             
             case CanDoTask.NoEnegry:
-                TrySetDialogNode(4);
+                TrySetDialogNode(NoEnergyIndex);
                 break;
             
             default:
@@ -68,27 +89,61 @@ public class Task : MonoBehaviour
         }
     }
 
+
     private void TrySetDialogNode(int index)
     {
-        if (VIDE_Data.VD.isActive)
+        if (_dialog is null)
         {
-            VIDE_Data.VD.SetNode(index);
+            _dialog = GetComponent<VIDE_Assign>();
+
+            if (_dialog is null)
+                return;
+        }
+
+        if (!VD.isActive)
+        {
+            VD.EndDialogue();
+            Debug.Log("##1--------------");
+            VIDEUIManagerCustom.Instance.Interact(_dialog);
+            Debug.Log("##4--------------");
+        }
+
+        if (VD.isActive && index >= 0)
+        {
+            VD.SetNode(index);
         }
     }
 
+
     public void StartTask()
     {
-        TasksActions.GetAction(Data.Task).Invoke();
-        OnEndTask();
+        TasksActions.GetStartAction(Data.Task).Invoke(OnCompleteTask, OnFailTask);
     }
 
-    public void OnEndTask()
+
+    public void OnCompleteTask()
+    {
+        ScenesManager.Instance.ClearActions();
+        TasksActions.GetOnCompleteAction(Data.Task).Invoke();
+        ResultOnComplete();
+        TrySetDialogNode(OnCompleteIndex);
+    }
+
+
+    public void OnFailTask()
+    {
+        ScenesManager.Instance.ClearActions();
+        TasksActions.GetOnFailAction(Data.Task).Invoke();
+        ResultOnFail();
+        TrySetDialogNode(OnFailIndex);
+    }
+
+
+    public void ResultOnComplete()
     {
         //need
         Inventory.Instance.RemoveItems(Data.NeedItems);
-        PlayerStats.Instance.RemoveEnergy(Data.NeedEnergy);
-        TimeManager.Instance.MinutesSkip(Data.MinutesToComplete);
-        TimeManager.Instance.HoursSkip(Data.HoursToComplete);
+        ResultOnFail();
 
         //get
         foreach (var item in Data.GetItems)
@@ -97,6 +152,22 @@ public class Task : MonoBehaviour
         }
         PlayerStats.Instance.AddEnergy(Data.GetEnergy);
     }
+
+
+    public void ResultOnFail()
+    {
+        //need
+        PlayerStats.Instance.RemoveEnergy(Data.NeedEnergy);
+        TimeManager.Instance.MinutesSkip(Data.MinutesToComplete);
+        TimeManager.Instance.HoursSkip(Data.HoursToComplete);
+    }
+
+
+    public void Log()
+    {
+        Debug.Log("haha");
+    }
+
 
     public enum CanDoTask
     {
@@ -111,5 +182,6 @@ public enum Tasks
 {
     WaterFlower,
     WashStove,
+    Programming,
     Sleep
 };

@@ -28,12 +28,27 @@ public class Counters : MonoBehaviour
 
         set
         {
-            _flowerDryness = Mathf.Clamp(_flowerDryness + value, 0, 100);
+            _flowerDryness = Mathf.Clamp(value, 0, 100);
         }
     }
 
 
-    private int _dirtyStove;
+    private int _dirtyPCtable = 60;
+    public int DirtyPCtable
+    {
+        get
+        {
+            return _flowerDryness;
+        }
+
+        set
+        {
+            _flowerDryness = Mathf.Clamp(value, 0, 100);
+        }
+    }
+
+
+    private int _dirtyStove = 60;
     public int DirtyStove
     {
         get
@@ -43,7 +58,7 @@ public class Counters : MonoBehaviour
 
         set
         {
-            _dirtyStove = Mathf.Clamp(_dirtyStove + value, 0, 100);
+            _dirtyStove = Mathf.Clamp(value, 0, 100);
         }
     }
 }

@@ -74,6 +74,7 @@ public class PlayerDialog : MonoBehaviour
 
         if (inTrigger)
         {
+            Debug.Log("###" + VD.isActive);
             diagUI.Interact(inTrigger);
             return;
             {

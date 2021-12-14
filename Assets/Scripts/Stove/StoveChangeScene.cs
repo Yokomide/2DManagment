@@ -8,7 +8,7 @@ public class StoveChangeScene : MonoBehaviour
     {
         if ((other.tag == "Player") && (Input.GetKeyDown(KeyCode.E)))
         {
-            ScenesManager.Instance.LoadScene(2);
+            ScenesManager.Instance.TryLoadScene(2);
         }
     }
 }
