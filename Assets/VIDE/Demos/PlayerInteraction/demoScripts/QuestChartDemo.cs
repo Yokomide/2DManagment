@@ -38,7 +38,9 @@ public class QuestChartDemo : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.X))
                 {
+                    HomeDataSaver.Instance.SaveOnQuit = false;
                     PlayerPrefs.DeleteAll();
+                    Debug.Log(PlayerPrefs.HasKey("playerXPos"));
                     if (System.IO.Directory.Exists(Application.dataPath + "/VIDE/saves"))
                     {
                         System.IO.Directory.Delete(Application.dataPath + "/VIDE/saves", true);

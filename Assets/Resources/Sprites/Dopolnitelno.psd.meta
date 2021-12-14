@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 20f72a35223d6c741ac96a1e9c7289ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5140309092626417253
+    second: Dopolnitelno_0
+  - first:
+      213: -8633589353131257466
+    second: Dopolnitelno_1
+  - first:
+      213: 4694062585648295959
+    second: Dopolnitelno_2
+  - first:
+      213: 4134161778260678344
+    second: Dopolnitelno_3
+  - first:
+      213: -808508490100726773
+    second: Dopolnitelno_4
+  - first:
+      213: -1025623258713683137
+    second: Dopolnitelno_5
+  - first:
+      213: 8526008742073448523
+    second: Dopolnitelno_6
+  - first:
+      213: -8141312357428826358
+    second: Dopolnitelno_7
+  - first:
+      213: 6193029405631016885
+    second: Dopolnitelno_8
+  - first:
+      213: -8909747758262724123
+    second: Dopolnitelno_9
+  - first:
+      213: 4213896022753785619
+    second: Dopolnitelno_10
+  - first:
+      213: -2190544037237438918
+    second: Dopolnitelno_11
+  - first:
+      213: 290203778736201103
+    second: Dopolnitelno_12
+  - first:
+      213: -109302362481314285
+    second: Dopolnitelno_13
+  - first:
+      213: 4194474830714885202
+    second: Dopolnitelno_14
+  - first:
+      213: 4686589611881306094
+    second: Dopolnitelno_15
+  - first:
+      213: -6504243367232485005
+    second: Dopolnitelno_16
+  - first:
+      213: 7466378335623391476
+    second: Dopolnitelno_17
+  - first:
+      213: -6321674210100845011
+    second: Dopolnitelno_18
+  - first:
+      213: -5077595386603257372
+    second: Dopolnitelno_19
+  - first:
+      213: -4485282237434059490
+    second: Dopolnitelno_20
+  - first:
+      213: 556272984591154902
+    second: Dopolnitelno_21
+  - first:
+      213: 8675989494627609385
+    second: Dopolnitelno_22
+  - first:
+      213: 8172591996959037253
+    second: Dopolnitelno_23
+  - first:
+      213: -2940704870486598282
+    second: Dopolnitelno_24
+  - first:
+      213: 1177568496586329114
+    second: Dopolnitelno_25
+  - first:
+      213: -4197761691550244135
+    second: Dopolnitelno_26
+  - first:
+      213: 4392278541264015563
+    second: Dopolnitelno_27
+  - first:
+      213: 5830507732288195517
+    second: Dopolnitelno_28
+  - first:
+      213: -6190190263870029445
+    second: Dopolnitelno_29
+  - first:
+      213: 4577916381996085554
+    second: Dopolnitelno_38
+  - first:
+      213: 7985573780436354549
+    second: Dopolnitelno_39
+  - first:
+      213: 196803382031110858
+    second: Dopolnitelno_42
+  - first:
+      213: 2057962281004639634
+    second: Dopolnitelno_43
+  - first:
+      213: 8595674550955568519
+    second: Dopolnitelno_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dopolnitelno_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 281
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56645bd92eb065740800000000000000
+      internalID: 5140309092626417253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 276
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681540ed9345f2880800000000000000
+      internalID: -8633589353131257466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 273
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710b40b2d09a42140800000000000000
+      internalID: 4694062585648295959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 280
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6993dcb3e7f5930800000000000000
+      internalID: 4134161778260678344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 273
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04a8a9dfc997c4f0800000000000000
+      internalID: -808508490100726773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 262
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b0ef6841144c1f0800000000000000
+      internalID: -1025623258713683137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 268
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48b92737c7725670800000000000000
+      internalID: 8526008742073448523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 268
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fe4f1ab8f340f80800000000000000
+      internalID: -8141312357428826358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 268
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6f2eae6f02f550800000000000000
+      internalID: 6193029405631016885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 246
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9da66ae973a5480800000000000000
+      internalID: -8909747758262724123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 259
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317bba44b14ca7a30800000000000000
+      internalID: 4213896022753785619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 259
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36cc9bddcf9991e0800000000000000
+      internalID: -2190544037237438918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 240
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d1c089cc2070400800000000000000
+      internalID: 290203778736201103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 241
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316b037941eab7ef0800000000000000
+      internalID: -109302362481314285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 224
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254d310a2a4c53a30800000000000000
+      internalID: 4194474830714885202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 249
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee79830eb6c1a0140800000000000000
+      internalID: 4686589611881306094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 249
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379ca635e194cb5a0800000000000000
+      internalID: -6504243367232485005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_17
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 244
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f82185a987ed9760800000000000000
+      internalID: 7466378335623391476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 227
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26e031bcc6e448a0800000000000000
+      internalID: -6321674210100845011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 228
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1c95ce5e1c889b0800000000000000
+      internalID: -5077595386603257372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 226
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15af50b19311c1c0800000000000000
+      internalID: -4485282237434059490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_21
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 240
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deb3bc055748b700800000000000000
+      internalID: 556272984591154902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_22
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 240
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bac4e5a7e476870800000000000000
+      internalID: 8675989494627609385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 210
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54791f8fe11ea6170800000000000000
+      internalID: 8172591996959037253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_24
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 209
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d926530848037d0800000000000000
+      internalID: -2940704870486598282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 163
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c08b10f40975010800000000000000
+      internalID: 1177568496586329114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 184
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2a7637bfd8eb5c0800000000000000
+      internalID: -4197761691550244135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 186
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0dc9edf0284fc30800000000000000
+      internalID: 4392278541264015563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 192
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbc43324ef1ae050800000000000000
+      internalID: 5830507732288195517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_29
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 107
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7102f580c6081aa0800000000000000
+      internalID: -6190190263870029445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_38
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 104
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2317150d1b6088f30800000000000000
+      internalID: 4577916381996085554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_39
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 104
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5059e3b0572de60800000000000000
+      internalID: 7985573780436354549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_42
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 19
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac25f8c12af2bb200800000000000000
+      internalID: 196803382031110858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_43
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 18
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2952f608ac95f8c10800000000000000
+      internalID: 2057962281004639634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dopolnitelno_44
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 11
+        width: 104
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d62965678f94770800000000000000
+      internalID: 8595674550955568519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

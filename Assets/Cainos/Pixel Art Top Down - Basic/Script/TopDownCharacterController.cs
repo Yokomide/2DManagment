@@ -23,8 +23,9 @@ using UnityEngine;
 
                 if (Input.GetKeyDown(KeyCode.X))
                 {
-                    PlayerPrefs.DeleteAll();
-                    if (System.IO.Directory.Exists(Application.dataPath + "/VIDE/saves"))
+                HomeDataSaver.Instance.SaveOnQuit = false;
+                PlayerPrefs.DeleteAll();
+                if (System.IO.Directory.Exists(Application.dataPath + "/VIDE/saves"))
                     {
                         System.IO.Directory.Delete(Application.dataPath + "/VIDE/saves", true);
 #if UNITY_EDITOR
@@ -32,7 +33,6 @@ using UnityEngine;
 #endif
                     }
 
-                PlayerPrefs.DeleteAll();
 #if UNITY_EDITOR
                     UnityEditor.EditorApplication.isPlaying = false;
 #endif

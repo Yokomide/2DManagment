@@ -51,7 +51,8 @@ namespace Cainos.PixelArtTopDown_Basic
             }
                 if (Input.GetKeyDown(KeyCode.X))
                 {
-                    PlayerPrefs.DeleteAll();
+                HomeDataSaver.Instance.SaveOnQuit = false;
+                PlayerPrefs.DeleteAll();
                     if (System.IO.Directory.Exists(Application.dataPath + "/VIDE/saves"))
                     {
                         System.IO.Directory.Delete(Application.dataPath + "/VIDE/saves", true);

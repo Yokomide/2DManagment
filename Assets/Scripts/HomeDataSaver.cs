@@ -19,6 +19,8 @@ public class HomeDataSaver : MonoBehaviour
     private string _playerRotate = "playerRotate";
     private string _gameBeginned = "gameBeginned";
 
+    public bool SaveOnQuit = true;
+
     private void Awake()
     {
         if (!Instance)
@@ -52,6 +54,7 @@ public class HomeDataSaver : MonoBehaviour
             PlayerPrefs.HasKey(_playerYPosKey) && 
             PlayerPrefs.HasKey(_playerZPosKey))
         {
+            Debug.Log("Gownoed");
             float x, y, z;
             x = PlayerPrefs.GetFloat(_playerXPosKey);
             y = PlayerPrefs.GetFloat(_playerYPosKey);
@@ -94,6 +97,7 @@ public class HomeDataSaver : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        SaveHomeData();
+        if (SaveOnQuit)
+            SaveHomeData();
     }
 }
